@@ -1,0 +1,1108 @@
+[
+  {
+    "conversation_id": "conv_133",
+    "gt": "Lung Squamous Cell Carcinoma",
+    "wsi_id": "TCGA-46-3767-01Z-00-DX1",
+    "steps": [
+      {
+        "n": 1,
+        "tool": "singlewsiregiontool_get_wsi_overview",
+        "args": {},
+        "file": "crops/lung/conv_133/1_overview.png"
+      },
+      {
+        "n": 2,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.25,
+            0.5
+          ],
+          "mpp": 16,
+          "size": [
+            512,
+            512
+          ]
+        },
+        "file": "crops/lung/conv_133/2_region_16mpp.png"
+      },
+      {
+        "n": 3,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.75,
+            0.5
+          ],
+          "mpp": 16,
+          "size": [
+            512,
+            512
+          ]
+        },
+        "file": "crops/lung/conv_133/3_region_16mpp.png"
+      },
+      {
+        "n": 4,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.25,
+            0.5
+          ],
+          "mpp": 4,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_133/4_region_4mpp.png"
+      },
+      {
+        "n": 5,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.75,
+            0.5
+          ],
+          "mpp": 4,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_133/5_region_4mpp.png"
+      },
+      {
+        "n": 6,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.25,
+            0.5
+          ],
+          "mpp": 1,
+          "size": [
+            256,
+            256
+          ]
+        },
+        "file": "crops/lung/conv_133/6_region_1mpp.png"
+      },
+      {
+        "n": 7,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.75,
+            0.5
+          ],
+          "mpp": 1,
+          "size": [
+            256,
+            256
+          ]
+        },
+        "file": "crops/lung/conv_133/7_region_1mpp.png"
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_155",
+    "gt": "Lung Squamous Cell Carcinoma",
+    "wsi_id": "TCGA-66-2786-01Z-00-DX1",
+    "steps": [
+      {
+        "n": 1,
+        "tool": "singlewsiregiontool_get_wsi_overview",
+        "args": {},
+        "file": "crops/lung/conv_155/1_overview.png"
+      },
+      {
+        "n": 2,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.25,
+            0.25
+          ],
+          "mpp": 8,
+          "size": [
+            256,
+            256
+          ]
+        },
+        "file": "crops/lung/conv_155/2_region_8mpp.png"
+      },
+      {
+        "n": 3,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.5,
+            0.5
+          ],
+          "mpp": 8,
+          "size": [
+            256,
+            256
+          ]
+        },
+        "file": "crops/lung/conv_155/3_region_8mpp.png"
+      },
+      {
+        "n": 4,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.75,
+            0.25
+          ],
+          "mpp": 8,
+          "size": [
+            256,
+            256
+          ]
+        },
+        "file": "crops/lung/conv_155/4_region_8mpp.png"
+      },
+      {
+        "n": 5,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.5,
+            0.75
+          ],
+          "mpp": 8,
+          "size": [
+            256,
+            256
+          ]
+        },
+        "file": "crops/lung/conv_155/5_region_8mpp.png"
+      },
+      {
+        "n": 6,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.25,
+            0.25
+          ],
+          "mpp": 2,
+          "size": [
+            256,
+            256
+          ]
+        },
+        "file": "crops/lung/conv_155/6_region_2mpp.png"
+      },
+      {
+        "n": 7,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.75,
+            0.25
+          ],
+          "mpp": 2,
+          "size": [
+            256,
+            256
+          ]
+        },
+        "file": "crops/lung/conv_155/7_region_2mpp.png"
+      },
+      {
+        "n": 8,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.35,
+            0.35
+          ],
+          "mpp": 2,
+          "size": [
+            256,
+            256
+          ]
+        },
+        "file": "crops/lung/conv_155/8_region_2mpp.png"
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_158",
+    "gt": "Lung Squamous Cell Carcinoma",
+    "wsi_id": "TCGA-18-3412-01Z-00-DX1",
+    "steps": [
+      {
+        "n": 1,
+        "tool": "singlewsiregiontool_get_wsi_overview",
+        "args": {},
+        "file": "crops/lung/conv_158/1_overview.png"
+      },
+      {
+        "n": 2,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.3,
+            0.5
+          ],
+          "mpp": 4,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_158/2_region_4mpp.png"
+      },
+      {
+        "n": 3,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.6,
+            0.5
+          ],
+          "mpp": 4,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_158/3_region_4mpp.png"
+      },
+      {
+        "n": 4,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.2,
+            0.3
+          ],
+          "mpp": 2,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_158/4_region_2mpp.png"
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_70",
+    "gt": "Lung Adenocarcinoma",
+    "wsi_id": "TCGA-62-A470-01Z-00-DX1",
+    "steps": [
+      {
+        "n": 1,
+        "tool": "singlewsiregiontool_get_wsi_overview",
+        "args": {},
+        "file": "crops/lung/conv_70/1_overview.png"
+      },
+      {
+        "n": 2,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.25,
+            0.25
+          ],
+          "mpp": 8,
+          "size": [
+            256,
+            256
+          ]
+        },
+        "file": "crops/lung/conv_70/2_region_8mpp.png"
+      },
+      {
+        "n": 3,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.5,
+            0.5
+          ],
+          "mpp": 8,
+          "size": [
+            256,
+            256
+          ]
+        },
+        "file": "crops/lung/conv_70/3_region_8mpp.png"
+      },
+      {
+        "n": 4,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.75,
+            0.75
+          ],
+          "mpp": 8,
+          "size": [
+            256,
+            256
+          ]
+        },
+        "file": "crops/lung/conv_70/4_region_8mpp.png"
+      },
+      {
+        "n": 5,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.75,
+            0.75
+          ],
+          "mpp": 2,
+          "size": [
+            256,
+            256
+          ]
+        },
+        "file": "crops/lung/conv_70/5_region_2mpp.png"
+      },
+      {
+        "n": 6,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.7,
+            0.8
+          ],
+          "mpp": 2,
+          "size": [
+            256,
+            256
+          ]
+        },
+        "file": "crops/lung/conv_70/6_region_2mpp.png"
+      },
+      {
+        "n": 7,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.5,
+            0.5
+          ],
+          "mpp": 2,
+          "size": [
+            256,
+            256
+          ]
+        },
+        "file": "crops/lung/conv_70/7_region_2mpp.png"
+      },
+      {
+        "n": 8,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.5,
+            0.6
+          ],
+          "mpp": 2,
+          "size": [
+            256,
+            256
+          ]
+        },
+        "file": "crops/lung/conv_70/8_region_2mpp.png"
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_126",
+    "gt": "Lung Adenocarcinoma",
+    "wsi_id": "TCGA-49-4494-01Z-00-DX6",
+    "steps": [
+      {
+        "n": 1,
+        "tool": "singlewsiregiontool_get_wsi_overview",
+        "args": {},
+        "file": "crops/lung/conv_126/1_overview.png"
+      },
+      {
+        "n": 2,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.5,
+            0.5
+          ],
+          "mpp": 16,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_126/2_region_16mpp.png"
+      },
+      {
+        "n": 3,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.3,
+            0.3
+          ],
+          "mpp": 8,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_126/3_region_8mpp.png"
+      },
+      {
+        "n": 4,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.7,
+            0.4
+          ],
+          "mpp": 4,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_126/4_region_4mpp.png"
+      },
+      {
+        "n": 5,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.4,
+            0.25
+          ],
+          "mpp": 4,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_126/5_region_4mpp.png"
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_20",
+    "gt": "Lung Squamous Cell Carcinoma",
+    "wsi_id": "TCGA-98-A538-01Z-00-DX1",
+    "steps": [
+      {
+        "n": 1,
+        "tool": "singlewsiregiontool_get_wsi_overview",
+        "args": {},
+        "file": "crops/lung/conv_20/1_overview.png"
+      },
+      {
+        "n": 2,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.25,
+            0.5
+          ],
+          "mpp": 8,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_20/2_region_8mpp.png"
+      },
+      {
+        "n": 3,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.75,
+            0.5
+          ],
+          "mpp": 8,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_20/3_region_8mpp.png"
+      },
+      {
+        "n": 4,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.5,
+            0.5
+          ],
+          "mpp": 8,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_20/4_region_8mpp.png"
+      },
+      {
+        "n": 5,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.25,
+            0.5
+          ],
+          "mpp": 2,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_20/5_region_2mpp.png"
+      },
+      {
+        "n": 6,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.75,
+            0.5
+          ],
+          "mpp": 2,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_20/6_region_2mpp.png"
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_27",
+    "gt": "Lung Adenocarcinoma",
+    "wsi_id": "TCGA-MN-A4N1-01Z-00-DX1",
+    "steps": [
+      {
+        "n": 1,
+        "tool": "singlewsiregiontool_get_wsi_overview",
+        "args": {},
+        "file": "crops/lung/conv_27/1_overview.png"
+      },
+      {
+        "n": 2,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.5,
+            0.5
+          ],
+          "mpp": 8,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_27/2_region_8mpp.png"
+      },
+      {
+        "n": 3,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.3,
+            0.4
+          ],
+          "mpp": 4,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_27/3_region_4mpp.png"
+      },
+      {
+        "n": 4,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.7,
+            0.6
+          ],
+          "mpp": 2,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_27/4_region_2mpp.png"
+      },
+      {
+        "n": 5,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.4,
+            0.7
+          ],
+          "mpp": 2,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_27/5_region_2mpp.png"
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_118",
+    "gt": "Lung Adenocarcinoma",
+    "wsi_id": "TCGA-44-2659-01Z-00-DX1",
+    "steps": [
+      {
+        "n": 1,
+        "tool": "singlewsiregiontool_get_wsi_overview",
+        "args": {},
+        "file": "crops/lung/conv_118/1_overview.png"
+      },
+      {
+        "n": 2,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.5,
+            0.5
+          ],
+          "mpp": 8,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_118/2_region_8mpp.png"
+      },
+      {
+        "n": 3,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.5,
+            0.25
+          ],
+          "mpp": 8,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_118/3_region_8mpp.png"
+      },
+      {
+        "n": 4,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.5,
+            0.75
+          ],
+          "mpp": 8,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_118/4_region_8mpp.png"
+      },
+      {
+        "n": 5,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.3,
+            0.75
+          ],
+          "mpp": 2,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_118/5_region_2mpp.png"
+      },
+      {
+        "n": 6,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.7,
+            0.75
+          ],
+          "mpp": 2,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_118/6_region_2mpp.png"
+      },
+      {
+        "n": 7,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.5,
+            0.15
+          ],
+          "mpp": 2,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_118/7_region_2mpp.png"
+      },
+      {
+        "n": 8,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.3,
+            0.15
+          ],
+          "mpp": 2,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_118/8_region_2mpp.png"
+      },
+      {
+        "n": 9,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.7,
+            0.15
+          ],
+          "mpp": 2,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_118/9_region_2mpp.png"
+      },
+      {
+        "n": 10,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.2,
+            0.4
+          ],
+          "mpp": 1,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_118/10_region_1mpp.png"
+      },
+      {
+        "n": 11,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.6,
+            0.4
+          ],
+          "mpp": 1,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_118/11_region_1mpp.png"
+      },
+      {
+        "n": 12,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.4,
+            0.2
+          ],
+          "mpp": 1,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_118/12_region_1mpp.png"
+      },
+      {
+        "n": 13,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.6,
+            0.2
+          ],
+          "mpp": 1,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_118/13_region_1mpp.png"
+      },
+      {
+        "n": 14,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.4,
+            0.8
+          ],
+          "mpp": 1,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_118/14_region_1mpp.png"
+      },
+      {
+        "n": 15,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.6,
+            0.8
+          ],
+          "mpp": 1,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_118/15_region_1mpp.png"
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_175",
+    "gt": "Lung Squamous Cell Carcinoma",
+    "wsi_id": "TCGA-37-4129-01Z-00-DX1",
+    "steps": [
+      {
+        "n": 1,
+        "tool": "singlewsiregiontool_get_wsi_overview",
+        "args": {},
+        "file": "crops/lung/conv_175/1_overview.png"
+      },
+      {
+        "n": 2,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.3,
+            0.3
+          ],
+          "mpp": 4,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_175/2_region_4mpp.png"
+      },
+      {
+        "n": 3,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.7,
+            0.6
+          ],
+          "mpp": 4,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_175/3_region_4mpp.png"
+      },
+      {
+        "n": 4,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.5,
+            0.2
+          ],
+          "mpp": 2,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_175/4_region_2mpp.png"
+      },
+      {
+        "n": 5,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.8,
+            0.3
+          ],
+          "mpp": 2,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_175/5_region_2mpp.png"
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_82",
+    "gt": "Lung Squamous Cell Carcinoma",
+    "wsi_id": "TCGA-37-4129-01Z-00-DX1",
+    "steps": [
+      {
+        "n": 1,
+        "tool": "singlewsiregiontool_get_wsi_overview",
+        "args": {},
+        "file": "crops/lung/conv_82/1_overview.png"
+      },
+      {
+        "n": 2,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.5,
+            0.5
+          ],
+          "mpp": 16,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_82/2_region_16mpp.png"
+      },
+      {
+        "n": 3,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.3,
+            0.3
+          ],
+          "mpp": 4,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_82/3_region_4mpp.png"
+      },
+      {
+        "n": 4,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.7,
+            0.7
+          ],
+          "mpp": 4,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_82/4_region_4mpp.png"
+      },
+      {
+        "n": 5,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.25,
+            0.6
+          ],
+          "mpp": 1,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_82/5_region_1mpp.png"
+      },
+      {
+        "n": 6,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.65,
+            0.4
+          ],
+          "mpp": 1,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_82/6_region_1mpp.png"
+      },
+      {
+        "n": 7,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.5,
+            0.25
+          ],
+          "mpp": 1,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_82/7_region_1mpp.png"
+      },
+      {
+        "n": 8,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.5,
+            0.75
+          ],
+          "mpp": 1,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/lung/conv_82/8_region_1mpp.png"
+      }
+    ]
+  }
+]
