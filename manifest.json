@@ -899,5 +899,502 @@
         "file": "crops/conv_163/8_region_2mpp.png"
       }
     ]
+  },
+  {
+    "conversation_id": "conv_116",
+    "primary_site": "Kidney",
+    "wsi_id": "TCGA-B4-5832-01Z-00-DX1",
+    "steps": [
+      {
+        "n": 1,
+        "tool": "singlewsiregiontool_get_wsi_overview",
+        "args": {},
+        "file": "crops/conv_116/1_overview.png"
+      },
+      {
+        "n": 2,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.3,
+            0.3
+          ],
+          "mpp": 8,
+          "size": [
+            256,
+            256
+          ]
+        },
+        "file": "crops/conv_116/2_region_8mpp.png"
+      },
+      {
+        "n": 3,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.7,
+            0.5
+          ],
+          "mpp": 8,
+          "size": [
+            256,
+            256
+          ]
+        },
+        "file": "crops/conv_116/3_region_8mpp.png"
+      },
+      {
+        "n": 4,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.5,
+            0.7
+          ],
+          "mpp": 8,
+          "size": [
+            256,
+            256
+          ]
+        },
+        "file": "crops/conv_116/4_region_8mpp.png"
+      },
+      {
+        "n": 5,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.5,
+            0.2
+          ],
+          "mpp": 4,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/conv_116/5_region_4mpp.png"
+      },
+      {
+        "n": 6,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.4,
+            0.6
+          ],
+          "mpp": 4,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/conv_116/6_region_4mpp.png"
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_132",
+    "primary_site": "Brain",
+    "wsi_id": "TCGA-QH-A6CY-01Z-00-DX1",
+    "steps": [
+      {
+        "n": 1,
+        "tool": "singlewsiregiontool_get_wsi_overview",
+        "args": {},
+        "file": "crops/conv_132/1_overview.png"
+      },
+      {
+        "n": 2,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.5,
+            0.5
+          ],
+          "mpp": 16,
+          "size": [
+            256,
+            256
+          ]
+        },
+        "file": "crops/conv_132/2_region_16mpp.png"
+      },
+      {
+        "n": 3,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.5,
+            0.5
+          ],
+          "mpp": 4,
+          "size": [
+            256,
+            256
+          ]
+        },
+        "file": "crops/conv_132/3_region_4mpp.png"
+      },
+      {
+        "n": 4,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.3,
+            0.3
+          ],
+          "mpp": 4,
+          "size": [
+            256,
+            256
+          ]
+        },
+        "file": "crops/conv_132/4_region_4mpp.png"
+      },
+      {
+        "n": 5,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.7,
+            0.4
+          ],
+          "mpp": 4,
+          "size": [
+            256,
+            256
+          ]
+        },
+        "file": "crops/conv_132/5_region_4mpp.png"
+      },
+      {
+        "n": 6,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.2,
+            0.6
+          ],
+          "mpp": 4,
+          "size": [
+            256,
+            256
+          ]
+        },
+        "file": "crops/conv_132/6_region_4mpp.png"
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_158",
+    "primary_site": "Thyroid",
+    "wsi_id": "TCGA-EM-A2CO-01Z-00-DX1",
+    "steps": [
+      {
+        "n": 1,
+        "tool": "singlewsiregiontool_get_wsi_overview",
+        "args": {},
+        "file": "crops/conv_158/1_overview.png"
+      },
+      {
+        "n": 2,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.5,
+            0.5
+          ],
+          "mpp": 8,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/conv_158/2_region_8mpp.png"
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_183",
+    "primary_site": "Breast",
+    "wsi_id": "TCGA-AR-A24T-01Z-00-DX1",
+    "steps": [
+      {
+        "n": 1,
+        "tool": "singlewsiregiontool_get_wsi_overview",
+        "args": {},
+        "file": "crops/conv_183/1_overview.png"
+      },
+      {
+        "n": 2,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.25,
+            0.25
+          ],
+          "mpp": 16,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/conv_183/2_region_16mpp.png"
+      },
+      {
+        "n": 3,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.5,
+            0.5
+          ],
+          "mpp": 16,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/conv_183/3_region_16mpp.png"
+      },
+      {
+        "n": 4,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.75,
+            0.75
+          ],
+          "mpp": 16,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/conv_183/4_region_16mpp.png"
+      },
+      {
+        "n": 5,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.15,
+            0.15
+          ],
+          "mpp": 8,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/conv_183/5_region_8mpp.png"
+      },
+      {
+        "n": 6,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.15,
+            0.5
+          ],
+          "mpp": 8,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/conv_183/6_region_8mpp.png"
+      },
+      {
+        "n": 7,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.5,
+            0.15
+          ],
+          "mpp": 8,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/conv_183/7_region_8mpp.png"
+      },
+      {
+        "n": 8,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.25,
+            0.35
+          ],
+          "mpp": 4,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/conv_183/8_region_4mpp.png"
+      },
+      {
+        "n": 9,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.65,
+            0.25
+          ],
+          "mpp": 4,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/conv_183/9_region_4mpp.png"
+      },
+      {
+        "n": 10,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.1,
+            0.3
+          ],
+          "mpp": 2,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/conv_183/10_region_2mpp.png"
+      },
+      {
+        "n": 11,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.35,
+            0.45
+          ],
+          "mpp": 2,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/conv_183/11_region_2mpp.png"
+      },
+      {
+        "n": 12,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.15,
+            0.65
+          ],
+          "mpp": 2,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/conv_183/12_region_2mpp.png"
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_186",
+    "primary_site": "Kidney",
+    "wsi_id": "TCGA-A4-7915-01Z-00-DX1",
+    "steps": [
+      {
+        "n": 1,
+        "tool": "singlewsiregiontool_get_wsi_overview",
+        "args": {},
+        "file": "crops/conv_186/1_overview.png"
+      },
+      {
+        "n": 2,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.5,
+            0.5
+          ],
+          "mpp": 8,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/conv_186/2_region_8mpp.png"
+      },
+      {
+        "n": 3,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.25,
+            0.5
+          ],
+          "mpp": 4,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/conv_186/3_region_4mpp.png"
+      },
+      {
+        "n": 4,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.75,
+            0.5
+          ],
+          "mpp": 4,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/conv_186/4_region_4mpp.png"
+      },
+      {
+        "n": 5,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.5,
+            0.5
+          ],
+          "mpp": 2,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/conv_186/5_region_2mpp.png"
+      },
+      {
+        "n": 6,
+        "tool": "singlewsiregiontool_read_region_mpp_relative",
+        "args": {
+          "location": [
+            0.3,
+            0.7
+          ],
+          "mpp": 2,
+          "size": [
+            384,
+            384
+          ]
+        },
+        "file": "crops/conv_186/6_region_2mpp.png"
+      }
+    ]
   }
 ]
